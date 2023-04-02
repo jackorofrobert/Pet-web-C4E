@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: raleway-r;
+  src: url(/Fonts1/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: raleway-b;
+  src: url(/Fonts1/Raleway-Bold.ttf);
+}
+body {
+  font-family: raleway-r;
+}
+.title-1 {
+  font-family: font-display;
+  font-size: 36px;
+}
+.title-2 {
+  font-family: font-display;
+  font-size: 28px;
+}
+.title-3 {
+  font-family: font-display;
+  font-size: 24px;
+}
+.text-151515 {
+  color: #151515;
+}
+.text-333 {
+  color: #333;
+}
+.text-777 {
+  color: #777;
+}
+.nav ul li {
+  float: left;
+}
+.nav ul li a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #151515;
+  letter-spacing: 2px;
+  line-height: 34px;
+  display: block;
+}
+.nav ul {
+  float: right;
+  margin: 30px 0;
+}
+.nav ul li a:hover {
+  background-color: #ebdbc1;
+  color: #fff;
+}
+.slider img {
+  width: 100%;
+}
+.bg-service {
+  background-color: #feb736;
+  float: left;
+  padding: 15px 0;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.px-200 {
+  padding: 0 200px;
+}
+.bg-product {
+  background-color: #f1f0f0;
+  float: left;
+  margin: 15px 0;
+}
+.bg-product2 {
+  float: none;
+  background-color: none;
+  margin: 15px 0px;
+}
+.bg-product h4 {
+  font-size: 20px;
+  color: #fa0606;
+  font-weight: 100;
+}
+/* .bg-banner{background-image: url("../images/banner.png");background-size: cover;padding: 70px 0;} */
+.title-2 {
+  color: #feb736;
+  font-weight: 100;
+}
+.bg-banner span {
+  color: #feb736;
+}
+.bg-banner .title-1 {
+  color: #feb736;
+}
+.bg-banner p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #fff;
+  padding: 0 350px;
+}
+.bg-footer {
+  background-color: #151515;
+  float: left;
+  margin-top: 30px;
+  padding: 20px 0;
+}
+.info p {
+  font-size: 14px;
+  color: #fefefe;
+  line-height: 30px;
+  padding-top: 15px;
+}
+.footer-title {
+  font-size: 22px;
+  color: #fefefe;
+  margin-top: 6px;
+}
+.account ul {
+  margin-top: 17px;
+}
+.account ul li a {
+  color: #fefefe;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.contact input[type="email"] {
+  height: 39px;
+  border: 1px solid #dedbdb;
+  width: 100%;
+  outline: none;
+  background: none;
+  box-sizing: border-box;
+  color: #fefefe;
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+  color: #fefefe;
+}
+::-moz-placeholder {
+  font-style: italic;
+  color: #fefefe;
+}
+::-ms-input-placeholder {
+  font-style: italic;
+  color: #fefefe;
+}
+.contact button {
+  width: 100%;
+  height: 39px;
+  border: none;
+  background-color: #feb736;
+  color: #151515;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+.contact [class*="col-"] {
+  padding: 0;
+}
+.form-contact {
+  margin-top: 25px;
+}
+.contact p {
+  color: #fefefe;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.fit {
+  height: 255px;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#vnclock {
+  font-weight: bold;
+  font-family: raleway-r;
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.08), 0 0 5px rgba(255, 165, 0, 0.5);
+}

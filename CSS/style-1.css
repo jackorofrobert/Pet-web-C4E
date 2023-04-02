@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family:font1;
+	src: url("../Fonts/Poppins-Regular.ttf");
+}
+body
+{
+	font-family: font1;
+}
+.bg
+{
+	height:150px;
+	background-color: #ccc;
+	margin: 15px 0;
+}
+.bg-2
+{
+	height:150px;
+	background-color:#f90;
+	margin: 15px 0;
+}
